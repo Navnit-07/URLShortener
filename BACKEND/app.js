@@ -17,7 +17,7 @@ const app = express();
 
 const allowedOrigins = [
   "http://localhost:5173",        
-  "https://yourfrontend.com"
+  "https://url-shortener-seven-rust.vercel.app"
 ];
 
 app.use(cors({
